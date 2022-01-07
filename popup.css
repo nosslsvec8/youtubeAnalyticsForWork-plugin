@@ -1,0 +1,31 @@
+html {
+    min-width:450px;
+    min-height:110px;
+}
+
+h2:hover,
+.clickable:hover{
+    cursor: pointer;
+}
+
+.highlightText {
+    color: rebeccapurple;
+}
+
+.redText {
+    color: red;
+}
+
+.clickable {
+    color: #1a73e8;
+}
+
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+#videoLinks > *{
+    padding: 0;
+    margin: 0;
+}
